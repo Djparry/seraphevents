@@ -1,0 +1,119 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo img {
+    height: 50px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Sidebar Menu */
+#side-menu {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    transition: right 0.3s ease;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#side-menu ul li {
+    padding: 15px;
+}
+
+#side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+#side-menu ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/482046989_3555345158104097_1207008934894142579_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dr1Me3JbBZYQ7kNvgFCuZbA&_nc_oc=Adjya488P9LCA5qkq6859euiHSOVoqcusCJ3VdDkwjvIuij7lVKQfkC3KAdDi72bv0A&_nc_zt=23&_nc_ht=scontent-los2-1.xx&_nc_gid=AGD4u6UX4OfZhsZqqTuG2Hh&oh=00_AYFOqaDOYGxbXz1Sq1heGtKWQ9O-L9r3Flh_B1zPXNP3Tw&oe=67CFEEEA');
+    text-align: center;
+    background-size: cover;
+}
+
+.contact-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.contact-info p, .social-media {
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
